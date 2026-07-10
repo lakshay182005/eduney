@@ -6,7 +6,7 @@ const Qualifications = () => {
     {
       icon: <FaGraduationCap size={24} sm:size={28} md:size={32} />,
       title: "Master's in Education",
-      subtitle: 'Currently Pursuing • Specialisation: English & Political Science',
+      subtitle: 'Specialisation: English & Political Science',
       color: 'from-primary/10 to-primary/15',
       iconColor: 'text-primary',
     },
