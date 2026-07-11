@@ -116,6 +116,7 @@ Prerna has extensive experience teaching students across national and internatio
                     src={prernaImage}
                     alt="Prerna - EDUNEY Educator"
                     className="w-full h-full object-cover"
+                    loading="eager"
                     style={{ objectPosition: 'center 15%' }}
                   />
                 </div>

@@ -38,6 +38,7 @@ const About = () => {
                   src={prernaImage}
                   alt="Prerna - EDUNEY Educator"
                   className="w-full h-full object-cover"
+                  loading="lazy"
                   style={{ objectPosition: 'center 15%' }}
                 />
               </div>
