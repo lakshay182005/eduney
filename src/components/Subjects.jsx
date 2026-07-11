@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion'
-import { FaCalculator, FaBook, FaFlask, FaGlobeAmericas, FaComments, FaPenFancy } from 'react-icons/fa'
+import { FaCalculator, FaBook, FaFlask, FaGlobeAmericas, FaComments, FaPenFancy, FaLanguage } from 'react-icons/fa'
 
 const Subjects = () => {
   const subjects = [
@@ -30,6 +30,13 @@ const Subjects = () => {
       description: 'Understand our world better',
       color: 'from-blue-500/10 to-blue-500/15',
       iconColor: 'text-blue-500',
+    },
+    {
+      icon: <FaLanguage size={24} sm:size={28} md:size={32} />,
+      name: 'French',
+      description: 'Build confidence in speaking, reading, and writing French.',
+      color: 'from-indigo-500/10 to-indigo-500/15',
+      iconColor: 'text-indigo-500',
     },
     {
       icon: <FaPenFancy size={24} sm:size={28} md:size={32} />,
@@ -86,7 +93,6 @@ const Subjects = () => {
             ))}
           </div>
         </div>
-        {/* French Language card - included in main flex */}
       </div>
     </section>
   )
